@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+}
+.conrols{
+    margin-bottom: 50px;
+}
+
+:root{
+    --spacing:10px;
+    --blur:10px;
+    --base:#ffc600;
+}
+
+img{
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
+
+.h1{
+    color: var(--base);
+}
+input{
+    width: 100px;
+}
